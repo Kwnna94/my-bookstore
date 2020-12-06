@@ -1,0 +1,194 @@
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.logo {
+  max-width: 70px;
+}
+
+.book-title {
+  font-weight: 700;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+  sans-serif;
+}
+
+.cart {
+  /* position: fixed;
+  right: 30px; */
+  font-size: 20px;
+  color: rgb(160, 125, 79);
+  border-color: rgb(211, 211, 160);
+}
+
+.cart:hover {
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+.page-container {
+  margin-top: 100px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.product {
+  flex-basis: 30%;
+  margin-bottom: 15px;
+}
+
+.dropdown-item.product-cart {
+  background: transparent;
+  cursor: default;
+}
+
+.price {
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.cart-total {
+  text-align: right;
+  cursor: default;
+}
+
+.cart-total-title {
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: rgb(138, 107, 66);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.cart-total-price {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: rgb(148, 148, 100);
+}
+
+.nav-item.dropdown {
+  margin-left: auto;
+  display: block;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: unset;
+  width: 400px;
+}
+
+.carousel-item img {
+  max-height: 560px;
+  object-fit: cover;
+}
+
+.myBookstore > img {
+  max-height: 660px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.booksInStore {
+  margin-bottom: 20px;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-caption {
+  background-color: rgb(255, 251, 251);
+  opacity: 0.6;
+  border-radius: 5px;
+}
+
+.carousel-caption > h5 {
+  color:black;
+  font-weight: 900;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+}
+
+.carousel-caption > p {
+  color: black;
+  font-weight: 800;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.contact-container {
+  margin-top: 100px;
+}
+
+.about-container .text {
+  margin-top: 15px;
+}
+
+.contact-submit {
+  background-color: rgb(160, 125, 79);
+  border: none;
+}
+
+.contact-submit:focus, .contact-submit:active{
+  border-color: #6e691d !important;
+  box-shadow: 0 0 0 0.2rem rgb(192, 192, 103) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: rgb(148, 148, 100);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.contact-submit:hover, .contact-submit:active, .contact-submit:focus {
+  background-color: rgb(148, 148, 100) !important;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  align-items: center;
+  cursor: default;
+  font-weight: 600;
+  color: rgb(148, 148, 100);
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.product-cart {
+  font-weight: 800;
+  color: rgb(145, 111, 67);
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.product-cart:hover {
+  color: rgb(148, 148, 100);
+  cursor: pointer;
+}
+
+.delete-item {
+  cursor: pointer;
+}
+.cart-price {
+  flex: 1;
+  text-align: right;
+  margin-right: 30px;
+}
+.cart-quantity-input {
+  margin-right: 10px;
+}
